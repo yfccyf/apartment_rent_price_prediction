@@ -115,3 +115,23 @@ Because certain algorithms are sensitive to scales, such as linear regression an
 The linear relationship is well-preserved after scaling as well
 
 ![](images/linear_before.png)   ![](images/linear_after.png)
+
+### Model Building
+I tried several models and evaluated them using Root Mean Square Error and R squared, and at the end optimize the models using GridSearchCV
+
+Models
+* Multiple Linear Regression
+* Regularization: Lasso Regression
+* Regularization: Ridge Regression
+* Support Vector Regression
+* Decision Tree Regression
+* Random Forest
+
+### Model Performance
+The Random Forest model far outperformed the other models
+* Multiple Linear Regression, RMSE: 699; R squared: 0.661
+* Regularization: Lasso Regression, RMSE: 704; R squared: 0.656
+* Regularization: Ridge Regression, RMSE: 699; R squared: 0.661
+* Support Vector Regression, RMSE: 655; R squared: 0.702
+* Decision Tree Regression, RMSE: 673; R squared: 0.685
+* Random Forest, RMSE: 541; R squared: 0.796
