@@ -4,7 +4,7 @@
 * Engineered features addressing issues including outliers removal, missing values imputation, rare labels grouping, categorical variable encoding, numeric variable transformation and feature scaling
 * Optimized Linear, Lasso, Decision Tree, Support Vector and Random Forest Regressors using GridSearchCV to reach the best model
 
-![](images/zillow.png)
+![](images/zillow2.png)
 
 ## Code and Resources Used
 **Python Version:** 3.8
