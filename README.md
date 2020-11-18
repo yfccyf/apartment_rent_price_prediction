@@ -67,8 +67,6 @@ Small apartments mostly for young working professionals (1B1B) - Dallas is much 
 ### Rare label grouping
 "zipcode": There are 132 different zipcodes, and most of them are well below 2% of the dataset, therefore, a grouping of the rare labels is necessary for the purpose of train test split and future model training
 
-![](images/zipcode_perc.png)
-
 The relationship between the percentage of the zipcode and price: a linear relationship is showing when percentage increases; the cutoff is at around 2%
 
 ![](images/zipcode_perc.png)
